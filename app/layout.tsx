@@ -1,11 +1,9 @@
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
-}
+motivation_1/
+  app/
+    layout.tsx
+    page.tsx
+  .gitignore
+  next-env.d.ts
+  package.json
+  tsconfig.json
+  vercel.json
